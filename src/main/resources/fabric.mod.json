@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "striply",
+	"version": "${version}",
+	"name": "Striply",
+	"description": "Simple mod to prevent accidentally stripping logs!",
+	"authors": [
+		"ProunceDev"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/prouncedev/striplymod"
+	},
+	"license": "MIT",
+	"icon": "assets/striply/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.prouncedev.striply.Striply"
+		],
+		"fabric-datagen": [
+			"net.prouncedev.striply.StriplyDataGenerator"
+		],
+		"client": [
+			"net.prouncedev.striply.StriplyClient"
+		]
+	},
+	"mixins": [
+		"striply.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
