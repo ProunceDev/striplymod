@@ -8,7 +8,6 @@
 		"ProunceDev"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/prouncedev/striplymod"
 	},
 	"license": "MIT",
@@ -17,12 +16,6 @@
 	"entrypoints": {
 		"main": [
 			"net.prouncedev.striply.Striply"
-		],
-		"fabric-datagen": [
-			"net.prouncedev.striply.StriplyDataGenerator"
-		],
-		"client": [
-			"net.prouncedev.striply.StriplyClient"
 		]
 	},
 	"mixins": [
@@ -31,10 +24,7 @@
 	"depends": {
 		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21",
-		"java": ">=21",
+		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

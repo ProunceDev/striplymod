@@ -3,7 +3,7 @@
 	"package": "net.prouncedev.striply.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"MixinClientPlayerInteractionManager"
 	],
 	"injectors": {
 		"defaultRequire": 1

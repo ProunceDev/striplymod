@@ -1,0 +1,7 @@
+{
+  "message.striply.attempted_strip": "Log stripping is disabled",
+  "message.striply.disabled": "Log stripping disabled",
+  "message.striply.enabled": "Log stripping enabled",
+  "key.striply.toggle": "Toggle log stripping",
+  "category.striply": "Striply"
+}
